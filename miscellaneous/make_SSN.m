@@ -1,10 +1,13 @@
-function [speech_shaped_noise,speech] = make_SSN(target_folder,dBFS)
+function [speech_shaped_noise,speech] = make_SSN(target_folder,len_sec,dBFS)
 
 % Filter white noise using the coefficients of the LTASS
 
 %% Set defaults
-if nargin < 2
+if nargin < 3
     dBFS = -26;
+end
+if nargin < 2
+    len_sec = 20*60; % 20 min
 end
 
 
@@ -40,8 +43,9 @@ speech = cell2mat(speech);
 
 
 %% Random-phase method
-spectrum = abs(fft(speech)).*exp(1i*2*pi*rand(size(speech))); % Applying the fourier transform and randomizing the phases of all the spectral components
-speech_shaped_noise = real(ifft(spectrum)); % Obtaining the real parts of the IFFT
+spectrum = abs(fft(speech)).*exp(1i*2*pi*rand(size(speech))); % Apply the fourier transform and randomizing the phases of all the spectral components
+speech_shaped_noise = real(ifft(spectrum)); % Obtain the real parts of the IFFT
+speech_shaped_noise = speech_shaped_noise(1:round(len_sec*fs));
 
 
 %% Adjust the level
