@@ -1,4 +1,4 @@
-Number,Sentence,Template,Keywords,Slope_F1A,Inflection_F1A,Screening_F1A,Screening_F1P,Screening_F1V,Screening_F2A,Screening_F2P,Screening_F2V,Screening_M1A,Screening_M1P,Screening_M1V,Screening_M2A,Screening_M2P,Screening_M2V,Naturalness,Discomfort,Responses
+Sentence,Words,Template,Keywords,Slope_F1A,Inflection_F1A,Screening_F1A,Screening_F1P,Screening_F1V,Screening_F2A,Screening_F2P,Screening_F2V,Screening_M1A,Screening_M1P,Screening_M1V,Screening_M2A,Screening_M2P,Screening_M2V,Naturalness,Discomfort,Responses
 1,Der er mange drenge der deltager i konkurrencer,1,"drenge, deltager, konkurrencer",8.479896951,-0.006015164,1,1,1,1,1,1,1,0,1,1,1,1,6.33,0,15
 2,Hun var berømt fordi hun samarbejdede med præsidenten,2,"berømt, samarbejdede, præsidenten",21.67194084,1.369052764,1,0,1,1,1,1,1,1,1,1,1,1,6.43,0,14
 3,Vores butik medvirkede i en kampagne sidste forår,3,"butik, medvirkede, forår",18.60066084,1.961737057,1,1,1,1,1,1,1,1,1,1,1,1,5.93,0,15
