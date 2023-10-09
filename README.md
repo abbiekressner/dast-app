@@ -1,29 +1,30 @@
-# README #
+# Danish Sentence Test (DAST) #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+![Screenshot](files/DAST-screenshot.png)
 
-### What is this repository for? ###
+The Danish Sentence Test (DAST) app is an application for facilitating
+speech-in-noise testing with material from the DAST corpus of audio and
+audio-visual recordings.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-### How do I get set up? ###
+## Installation ##
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Download this repository using one of the following methods:  
+  1. Clone or fork this repository  
+  2. Download the contents as a zip file  
+  
+* Download the DAST Sentences corpus: https://doi.org/10.11583/DTU.24058110
 
-### Contribution guidelines ###
+## Usage ##
 
-* Writing tests
-* Code review
-* Other guidelines
+### With a Matlab license ###
+* Open Matlab
+* Change your current directory to the DAST-app repository
+* Start the application by running DAST.mlapp
 
-### Who do I talk to? ###
+### Without a Matlab license ###
+* Compiled, standalone versions are coming soon. Stay tuned...
 
-* Repo owner or admin
-* Other community or team contact
+
+## Contact ##
+* Abigail Anne Kressner (aakress@dtu.dk)
