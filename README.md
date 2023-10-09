@@ -9,9 +9,10 @@ audio-visual recordings.
 
 ## Installation ##
 
-* Download this repository using one of the following methods:
-  1. Clone or fork this repository
-  2. Download the contents as a zip file
+* Download this repository using one of the following methods:  
+  1. Clone or fork this repository  
+  2. Download the contents as a zip file  
+  
 * Download the DAST Sentences corpus: https://doi.org/10.11583/DTU.24058110
 
 ## Usage ##
