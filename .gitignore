@@ -48,6 +48,10 @@ Thumbs.db
 *.mov
 *.wmv
 
+# Playrec binary files
+*.mexw64
+*.mexw64.pdb
+
 audio
 results
 calibration
