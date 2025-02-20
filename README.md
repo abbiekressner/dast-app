@@ -34,7 +34,7 @@ Note that the `DAST_corpus_information.csv` file contained within the Danish Sen
 
 * Kressner, A. A., Rico, K. M. J., Kizach, J., Man, B. K. L., Pedersen, A. K., Bramsløw, L., Hansen, L. B., Balling, L. W., Kirkwood, B., May, T., “A corpus of audio-visual recordings of linguistically balanced, Danish sentences for speech-in-noise experiments”. In: Speech Communication (2024). doi: https://doi.org/10.1016/j.specom.2024.103141.
 
-* Kressner, A. A., Jensen-Rico, K. M., Pedersen, A. K., Bramsløw, L., Kirkwood, B., “Psychoacoustic characterization of linguistically balanced, Danish sentences for speech-in-noise experiments”. In: International Journal of Audiology (in review).
+* Kressner, A. A., Jensen-Rico, K. M., Pedersen, A. K., Bramsløw, L., Kirkwood, B., “Psychoacoustic characterization of linguistically balanced, Danish sentences for speech-in-noise experiments”. In: International Journal of Audiology (2025). doi: http://doi.org/10.1080/14992027.2025.2470378
 
 * Kressner, A. A., Jensen-Rico, K. M., Pedersen, A. K., Bramsløw, L., Kirkwood, B., “An adaptive Danish Sentence Test (DAST) for measuring speech reception thresholds”. In: International Journal of Audiology (in
 preparation).
