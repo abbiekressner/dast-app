@@ -1,0 +1,11 @@
+Block,Corpus,List type,List number,Talker,Masker,Masker level
+1,DAST,F1A,40,F1,SSN_F1,65
+2,DAST,F1A,20,F1,F1,65
+3,DAST,F1A,6,F1,F2,65
+4,DAST,F1A,17,M1,F2,65
+5,DAST,F1A,23,M1,M2,65
+6,ECODAST,F1A_ECO_normal,10,F1,SSN_normal,65
+7,ECODAST,F1A_ECO_normal,6,F1,SSN_normal,65
+8,ECODAST,F1A_ECO_raised,2,F1,SSN_raised,65
+9,ECODAST,F1A_ECO_raised,8,F1,SSN_raised,65
+10,ECODAST,F1A_ECO_raised,4,F1,SSN_raised,65
