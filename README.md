@@ -47,7 +47,7 @@ Note that you should maintain the file structure within each corpus folder(s). S
 
 * Kressner, A. A., Rico, K. M. J., Kizach, J., Man, B. K. L., Pedersen, A. K., Bramsløw, L., Hansen, L. B., Balling, L. W., Kirkwood, B., May, T., “A corpus of audio-visual recordings of linguistically balanced, Danish sentences for speech-in-noise experiments”. In: Speech Communication (2024). doi: https://doi.org/10.1016/j.specom.2024.103141.
 
-* Kressner, A. A., Jensen-Rico, K. M., Pedersen, A. K., Bramsløw, L., Kirkwood, B., “Psychoacoustic characterization of linguistically balanced, Danish sentences for speech-in-noise experiments”. In: International Journal of Audiology (2025), 1–9. doi: https://doi.org/10.1080/14992027.2025.2470378.
+* Kressner, A. A., Jensen-Rico, K. M., Pedersen, A. K., Bramsløw, L., Kirkwood, B., “Psychoacoustic characterization of linguistically balanced, Danish sentences for speech-in-noise experiments”. In: International Journal of Audiology (2025). doi: http://doi.org/10.1080/14992027.2025.2470378
 
 * Man, B. K. L., Andersen, T. S., Kressner, A. A., “Measuring the audiovisual benefit in linguistically and psychoacoustically balanced sentences using the Audiovisual Danish Sentence Test”. In: International Journal of Audiology (in review).
 
