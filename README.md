@@ -3,20 +3,33 @@
 ![Screenshot](files/DAST-screenshot.png)
 
 The Danish Sentence Test (DAST) app is an application for facilitating
-speech-in-noise testing with material from the DAST corpus of audio and
-audio-visual recordings.
+speech-in-noise testing with material from the DAST and ECO-DAST corpora of audio 
+and audio-visual recordings.
 
 
 ## Installation ##
 
-* Download this repository using one of the following methods:  
-  1. Clone or fork this repository  
-  2. Download the contents as a zip file  
+1. Download this repository using one of the following methods:  
+  * Clone or fork this repository  
+  * Download the contents as a zip file  
 
-* Download the Danish Sentence Test (DAST) Sentences corpus (https://doi.org/10.11583/DTU.24058110) and unzip the `DAST_sentences_audio.zip` and `DAST_sentences_video.zip` files into an audio and video folder, respectively, within your `dast-app` folder as follows:  
-  `../dast-app/audio/`  
-  `../dast-app/video/`  
-Note that the `DAST_corpus_information.csv` file contained within the Danish Sentence Test (DAST) Sentences corpus is already contained within this repository (i.e., `../dast-app/files/DAST_corpus_information.csv`), so there is no need to copy it.
+2. Download the desired corpus or corpora:
+  * Danish Sentence Test (DAST) Sentences corpus (https://doi.org/10.11583/DTU.24058110)
+  * Everyday Conversational Danish Sentence Test (ECO-DAST) corpus (link coming soon)
+
+3. Move the speech material into your `dast-app` folder as follows:  
+  `../dast-app/DAST.mlapp`
+  `../dast-app/DASTchannels.mlapp`  
+  `../dast-app/DASTsettings.mlapp`
+  `../dast-app/files/`
+  `../dast-app/presets/`
+  `../dast-app/Corpus_DAST/`
+  `../dast-app/Corpus_ECODAST/`
+
+Note that you should maintain the file structure within each corpus folder(s). Specifically, there should be three subfolders (i.e., 'metadata','speech','noise'). For example:
+  `../dast-app/Corpus_DAST/metadata/`
+  `../dast-app/Corpus_DAST/speech/`
+  `../dast-app/Corpus_DAST/noise/`
 
 
 ## Usage ##
@@ -34,16 +47,15 @@ Note that the `DAST_corpus_information.csv` file contained within the Danish Sen
 
 * Kressner, A. A., Rico, K. M. J., Kizach, J., Man, B. K. L., Pedersen, A. K., Bramsløw, L., Hansen, L. B., Balling, L. W., Kirkwood, B., May, T., “A corpus of audio-visual recordings of linguistically balanced, Danish sentences for speech-in-noise experiments”. In: Speech Communication (2024). doi: https://doi.org/10.1016/j.specom.2024.103141.
 
-* Kressner, A. A., Jensen-Rico, K. M., Pedersen, A. K., Bramsløw, L., Kirkwood, B., “Psychoacoustic characterization of linguistically balanced, Danish sentences for speech-in-noise experiments”. In: International Journal of Audiology (in review).
+* Kressner, A. A., Jensen-Rico, K. M., Pedersen, A. K., Bramsløw, L., Kirkwood, B., “Psychoacoustic characterization of linguistically balanced, Danish sentences for speech-in-noise experiments”. In: International Journal of Audiology (2025), 1–9. doi: https://doi.org/10.1080/14992027.2025.2470378.
 
-* Kressner, A. A., Jensen-Rico, K. M., Pedersen, A. K., Bramsløw, L., Kirkwood, B., “An adaptive Danish Sentence Test (DAST) for measuring speech reception thresholds”. In: International Journal of Audiology (in
-preparation).
+* Man, B. K. L., Andersen, T. S., Kressner, A. A., “Measuring the audiovisual benefit in linguistically and psychoacoustically balanced sentences using the Audiovisual Danish Sentence Test”. In: International Journal of Audiology (in review).
 
-* Man, B. K. L., ..., Kressner, A. A., “Psychometric comparison of an audio and audio-visual, linguistically balanced sentences”. In: The Journal of the Acoustical Society of America (in preparation).
+* Andersen, P. K., Bramsløw, L., Pedersen, A. K., Dau, T., Kressner, A. A., “Investigating naturalness with a more ecologically valid speech material in the Everyday Conversational Danish Sentence Test (ECO-DAST)”. In: Ear & Hearing (in review).
 
-* Jensen-Rico, K. M., Jordell, D. H., Kjærbøl, E., Kressner, A. A., “The Quick Danish Sentence Test (Quick-DAST) for measuring speech reception thresholds clinically”. In: International Journal of Audiology (in preparation).
+* Kressner, A. A., Jensen-Rico, K. M., Pedersen, A. K., Bramsløw, L., Kirkwood, B., “An adaptive Danish Sentence Test (DAST) for measuring speech reception thresholds”. In: International Journal of Audiology (in preparation).
 
-* Andersen, P. K., ..., Kressner, A. A., “An investigation of sentence naturalness and vocal effort with the Everyday Conversational Danish Sentence Test (ECO-DAST)”. In: (in preparation).
+* Kressner, A. A., Jensen-Rico, K. M., Jordell, D. H., Kjærbøl, E., “The Quick Danish Sentence Test (Quick-DAST) for measuring speech reception thresholds clinically”. In: International Journal of Audiology (in preparation).
 
 
 ## Contact ##
